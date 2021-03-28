@@ -68,3 +68,12 @@ tail -f ./text.log
 ```shell
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 ```
+
+## 1.4: Missing dependencies
+
+- Command
+
+```shell
+docker run -it --name missdep ubuntu sh -c 'apt update; apt install -y curl; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+```
+
