@@ -117,3 +117,12 @@ You found the correct password. Secret message is:
 ## 1.8: Image for script
 
 - See folder Exercise1.8
+
+## 1.9: Volumes
+
+- Commands
+
+```shell
+touch text.log
+docker run -d -v $(pwd)/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
+```
