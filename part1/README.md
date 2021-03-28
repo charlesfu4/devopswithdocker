@@ -1,4 +1,4 @@
-# Part 1.
+# Part 1
 
 ## 1.1: Getting started
 
@@ -26,4 +26,30 @@ b1ce3227aad3   httpd     "httpd-foreground"       10 minutes ago   Exited (0) 39
 dd83ce03a13e   nginx     "/docker-entrypoint.…"   13 minutes ago   Up 13 minutes                 80/tcp    ecstatic_curie
 ```
 
+## 1.2: Clean up
+
+- Clean up the containers
+
+```shell
+docker container stop dd8
+docker container prune
+```
+
+- Clean up the images 
+    
+```shell
+docker image prune -a
+```
+
+- Result
+    
+```shell
+(base) -bash-3.2$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
+
+```shell
+(base) -bash-3.2$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+```
 
