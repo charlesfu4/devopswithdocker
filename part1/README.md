@@ -126,3 +126,12 @@ You found the correct password. Secret message is:
 touch text.log
 docker run -d -v $(pwd)/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
 ```
+
+## 1.10: Ports open
+
+- Commands
+    
+```shell
+docker build . -t webserver
+docker run -p 3000:8080 webserver
+```
