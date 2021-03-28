@@ -109,3 +109,9 @@ Give me the password: basics
 You found the correct password. Secret message is:
 "This is the secret message"
 ```
+
+## 1.7: Two line Dockerfile
+
+- See folder 1.7
+
+## 1.8: Image for script
