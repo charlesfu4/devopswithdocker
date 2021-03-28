@@ -93,3 +93,19 @@ docker run -d -it devopsdockeruh/simple-web-service:alpine
 docker exec -it c8e sh
 tail -f ./text.log
 ```
+
+## 1.6: Hello Docker Hub
+
+- Command
+
+```shell
+ docker run -it devopsdockeruh/pull_exercise
+```
+
+- Secret message
+
+```shell
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"
+```
