@@ -112,6 +112,8 @@ You found the correct password. Secret message is:
 
 ## 1.7: Two line Dockerfile
 
-- See folder 1.7
+- See folder Exercise1.7
 
 ## 1.8: Image for script
+
+- See folder Exercise1.8
