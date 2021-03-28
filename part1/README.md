@@ -76,4 +76,20 @@ Secret message is: 'You can find the source code here: https://github.com/docker
 ```shell
 docker run -it --name missdep ubuntu sh -c 'apt update; apt install -y curl; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
 ```
+## 1.5: Sizes of images
 
+- Image size comparison
+
+```shell
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   13 days ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   13 days ago   15.7MB
+```
+
+- Go in alpine and check secret message
+
+```shell
+docker run -d -it devopsdockeruh/simple-web-service:alpine
+docker exec -it c8e sh
+tail -f ./text.log
+```
