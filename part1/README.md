@@ -135,3 +135,14 @@ docker run -d -v $(pwd)/text.log:/usr/src/app/text.log devopsdockeruh/simple-web
 docker build . -t webserver
 docker run -p 3000:8080 webserver
 ```
+
+## 1.11: Spring 
+
+- Dockfile in folder Exercise1.11
+- Commands
+
+```shell
+git clone https://github.com/docker-hy/material-applications.git
+cd 
+
+```
