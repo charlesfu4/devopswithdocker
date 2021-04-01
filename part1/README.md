@@ -138,14 +138,4 @@ docker run -p 3000:8080 webserver
 
 ## 1.11: Spring 
 
-- Dockfile in folder Exercise1.11
-- Commands
-
-```shell
-git clone https://github.com/docker-hy/material-applications.git
-cp Exercise1.11/Dockerfile material-applications/spring-example-project/
-cd material-applications/spring-example-project/
-docker build . -t spring-project && docker run -p 8080:8080 spring-project
-```
-
-- After this, check localhost:8080 in your browser
+- See folder Exercise1.11
