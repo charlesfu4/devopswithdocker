@@ -139,3 +139,7 @@ docker run -p 3000:8080 webserver
 ## 1.11: Spring 
 
 - See folder Exercise1.11
+
+## 1.12: Hello, frontend! 
+
+- See folder Exercise1.12
