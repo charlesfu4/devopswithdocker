@@ -152,4 +152,4 @@ docker run -p 3000:8080 webserver
 
 - Follow instruction in both 1.12 and 1.13
 
-- The frontend connecting to backend API will be served at [http://localhost:5000](localhost:5000)
+- The frontend connecting to backend API will be served at [localhost:5000](http://localhost:5000)
