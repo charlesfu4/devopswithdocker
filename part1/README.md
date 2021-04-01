@@ -147,3 +147,9 @@ docker run -p 3000:8080 webserver
 ## 1.13: Hello, backend! 
 
 - See folder Exercise1.13
+
+## 1.14: Enviornment 
+
+- Follow instruction in both 1.12 and 1.13
+
+- The frontend connecting to backend API will be served at [localhost:5000](localhost:5000)

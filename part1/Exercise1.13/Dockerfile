@@ -10,6 +10,6 @@ RUN go build
 
 RUN test ./...
 
-RUN export REQUEST_ORIGIN=localhost:5000
+ENV REQUEST_ORIGIN=http://localhost:5000
 
 CMD ["./server"]
