@@ -2,12 +2,12 @@ version: '3.5'
 
 services:
   frontend:
-    build: ../example-frontend
+    build: ./material-applications/example-frontend
     image: exfront
     ports:
       - 5000:5000
   backend:
-    build: ../example-backend
+    build: ./material-applications/example-backend
     image: exback
     ports:
       - 8080:8080
