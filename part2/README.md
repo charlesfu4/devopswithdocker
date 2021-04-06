@@ -15,3 +15,9 @@ Check out folder Exercise2.03
 ## 2.4
 
 Check out folder Exercise2.04
+
+## 2.5
+
+```shell
+docker-compose up -d --scale compute=4
+```
