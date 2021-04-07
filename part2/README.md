@@ -21,3 +21,7 @@ Check out folder Exercise2.04
 ```shell
 docker-compose up -d --scale compute=4
 ```
+
+## 2.6
+
+Check out folder Exercise2.06
