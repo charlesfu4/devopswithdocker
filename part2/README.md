@@ -33,8 +33,3 @@ Check out folder Exercise2.07
 ## 2.8
 
 Check out folder Exercise2.08
-Make sure before everthing, stop your local apache2 server with the command below, so the default http port is not occupied.
-
-```shell
-sudo /etc/init.d/apache2 stop
-```
