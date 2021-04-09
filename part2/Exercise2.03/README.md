@@ -4,7 +4,7 @@
 
 ```shell
 git clone https://github.com/docker-hy/material-applications.git
-cp frontend/Dockerfile material-applicaitons/example-frontend
-cp backend/Dockerfile material-applicaitons/example-backend
+cp frontend/Dockerfile material-applications/example-frontend
+cp backend/Dockerfile material-applications/example-backend
 docker-compose up
 ```
