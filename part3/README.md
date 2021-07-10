@@ -32,5 +32,7 @@ jobs:
         tags: charlesfu4/tinyurlcharles:latest
 ```
 
-## 3.2: 
+## 3.2: Building images inside of a container
+
+- See folder Exercise3.2
 
