@@ -2,7 +2,7 @@
 
 ### Dockerfile and bash script
 
-To start the container that builds the image and push it to docker hub, input the following commands. The run command needs `-v /var/run/docker.sock:/var/run/docker.sock` to allow the inner container run in a outer container. Also here we give it -i label to keep the STDIN on so the piped password can be fed in.
+To start the container that builds the image and push it to docker hub, input the following commands. The run command needs `-v /var/run/docker.sock:/var/run/docker.sock` to allow the inner container run in a outer container. Also here we give it -i label to keep the STDIN on so the piped password can be fed in. Do not forget to prepare a secret password.txt that contains your docker hub password and change the `DOCKER_USERNAME`in the `Dockerfile` to yours.
 
 ```shell
 docker build -t buildtinyurl .
