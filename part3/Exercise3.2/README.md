@@ -18,3 +18,4 @@ docker-composer up
 ```
 
 ### System architecture
+![Continuous Development](https://user-images.githubusercontent.com/14807898/125167390-8528e980-e1a0-11eb-875b-93baee3c6d57.png)
