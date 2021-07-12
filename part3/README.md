@@ -36,3 +36,7 @@ jobs:
 
 - See folder Exercise3.2
 
+## 3.3: This exercise is mandatory  
+
+- See folder Exercise3.3
+
