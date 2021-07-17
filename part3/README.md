@@ -40,3 +40,6 @@ jobs:
 
 - See folder Exercise3.3
 
+## 3.4: Shrink frontend & backend Dockerfiles  
+
+- See folder Exercise3.4
