@@ -47,3 +47,7 @@ jobs:
 ## 3.5: Shrink frontend & backend Dockerfiles by changing FROM
 
 - See folder Exercise3.5
+
+## 3.6: Shrink frontend & backend Dockerfiles by multi-stage 
+
+- See folder Exercise3.6
