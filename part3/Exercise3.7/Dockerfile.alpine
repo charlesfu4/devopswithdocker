@@ -1,0 +1,17 @@
+FROM node:alpine
+EXPOSE 3001
+WORKDIR /usr/src/app
+COPY ./Pluss-Interview-task .
+
+WORKDIR /usr/src/app/client
+RUN npm install
+
+WORKDIR /usr/src/app/server
+RUN npm install
+ENV PORT=3001
+RUN npm run build:ui
+
+RUN adduser -D appuser
+RUN chown -v appuser /usr/src/app
+USER appuser
+CMD ["npm", "start"]

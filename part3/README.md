@@ -51,3 +51,7 @@ jobs:
 ## 3.6: Shrink frontend & backend Dockerfiles by multi-stage 
 
 - See folder Exercise3.6
+
+## 3.7: Optimizing security and size
+
+- See folder Exercise3.7
