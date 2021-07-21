@@ -57,3 +57,4 @@ jobs:
 - See folder Exercise3.7
 
 ## 3.8: Kubernetes 
+![Kubernates](https://user-images.githubusercontent.com/14807898/126503492-8963ad97-86d3-4ff4-b2b6-05734468bf0f.png)
