@@ -55,3 +55,5 @@ jobs:
 ## 3.7: Optimizing security and size
 
 - See folder Exercise3.7
+
+## 3.8: Kubernetes 
