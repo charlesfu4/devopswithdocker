@@ -15,11 +15,19 @@ docker build . -t tinyurl && docekr run -p 3001:3001 tinyurl
 git clone https://github.com/charlesfu4/Pluss-Interview-task.git
 docker build -t tinyurl:alpine -f Dockerfile.alpine .
 
+```
+
+- Multi-stage build 
+
+```bash
+git clone https://github.com/charlesfu4/Pluss-Interview-task.git
+docker build -t tinyurl:multistage -f Dockerfile.multistage .
 
 ```
 
 
-|             |   Dockerfile  |
+|  Dockerfile |     Sizes     |
 |-------------| ------------- |
-|   Before    |     511MB     |
-|    Alpine   |     435MB     |
+|   Normal    |     511MB     |
+|   Alpine    |     435MB     |
+| Multi-stage |     118MB     |

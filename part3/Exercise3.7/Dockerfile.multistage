@@ -1,0 +1,20 @@
+FROM alpine as build-stage
+EXPOSE 3001
+WORKDIR /usr/src/app
+COPY ./Pluss-Interview-task .
+RUN apk add --no-cache nodejs npm
+WORKDIR /usr/src/app/client
+RUN npm install
+WORKDIR /usr/src/app/server
+RUN npm install
+ENV PORT=3001
+RUN npm run build:ui
+
+
+FROM node:alpine 
+WORKDIR /usr/src/app
+COPY --from=build-stage /usr/src/app/server .
+RUN adduser -D appuser
+RUN chown -v appuser /usr/src/app
+USER appuser
+CMD ["node", "index.js"]
